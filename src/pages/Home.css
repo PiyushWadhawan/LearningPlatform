@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+}
+
+.content
+{
+    width: 80%;
+}
+
+.intro {
+    width: 95%;
+    display: flex;
+    color: white;
+    background-color: rgb(57, 15, 212);
+    margin: 1rem auto 2rem auto;
+    border-radius: 20px;
+}
+
+.intro-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro img {
+    padding-right: 5rem;
+    border-radius: 100%;
+}
+
+.intro h1 {
+    font-size: 4rem;
+    padding: 0 0 0 2rem;
+    margin: 0;
+}
+
+.intro h2 {
+    font-weight: 100;
+    padding: 0 0 0 2rem;
+    margin: 0;
+}
+
+.intro hr {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.contact {
+    width: 60%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgb(238, 205, 72);
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.intro ul li {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro ul li h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidenav-headings {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(86, 86, 86);
+}
+
+.sidenav-headings h5 {
+    color: red;
+}
