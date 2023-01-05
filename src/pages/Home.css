@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    padding-bottom: 6rem;
 }
 
 .content
@@ -77,8 +78,18 @@
     display: flex;
     justify-content: space-between;
     color: rgb(86, 86, 86);
+    
+}
+
+.sidenav-headings h3 {
+    margin: 0;
 }
 
 .sidenav-headings h5 {
     color: red;
+    margin: 0;
+}
+
+.sidenav-headings.second {
+    margin-top: 4rem;
 }

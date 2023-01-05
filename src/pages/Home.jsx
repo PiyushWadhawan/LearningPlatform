@@ -5,6 +5,7 @@ import { AiFillMail } from "react-icons/ai"
 import { BsFillTelephoneFill } from "react-icons/bs"
 import Navbar from '../components/Navbar'
 import SidenavAdvance from '../components/SidenavAdvance'
+import Sidenav from '../components/Sidenav'
 
 function Home() {
   return (
@@ -45,10 +46,12 @@ function Home() {
 
             <SidenavAdvance/>
 
-            <div className='sidenav-headings'>
+            <div className='sidenav-headings second'>
                 <h3>Library</h3>
                 <h5>See All</h5>
             </div>
+
+            <Sidenav/>
 
         </div>
       </div>
