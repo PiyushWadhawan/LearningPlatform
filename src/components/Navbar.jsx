@@ -14,23 +14,23 @@ function Navbar() {
             </div>
             <ul className='navbar'>
                 <li className="nav-items nav1">
-                    < AiFillHome/>
+                    <span>< AiFillHome/></span>
                     <h4>Home</h4>
                 </li>
                 <li className="nav-items">
-                    <MdLocalLibrary/>
+                    <span><MdLocalLibrary/></span>
                     <h4>Library</h4>
                 </li>
                 <li className="nav-items">
-                    <TfiMenu/>
+                    <span><TfiMenu/></span>
                     <h4>My Courses</h4>
                 </li>
                 <li className="nav-items">
-                    <BsFillPersonFill/>
+                    <span><BsFillPersonFill/></span>
                     <h4>Account</h4>
                 </li>
                 <li className="nav-items">
-                    <FaEdit/>
+                    <span><FaEdit/></span>
                     <h4>Blog</h4>
                 </li>
             </ul>

@@ -93,3 +93,82 @@
 .sidenav-headings.second {
     margin-top: 4rem;
 }
+
+@media screen and (max-width: 1500px) {
+
+    .intro img {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    .contact {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .contact {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 971px) {
+
+    .intro img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .intro img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .intro h3  {
+        font-size: 1rem;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    .container span{
+        display: none;
+    }
+
+    .contact span.mobile {
+        display: block;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .contact {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 444px) {
+
+    .contact li.phone-no {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 364px) {
+
+    .intro-content h1, .intro-content h2 {
+        padding-left: 1rem;
+    }
+}
