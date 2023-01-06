@@ -94,6 +94,7 @@
     margin-top: 4rem;
 }
 
+    
 @media screen and (max-width: 1500px) {
 
     .intro img {
@@ -144,10 +145,6 @@
 
     .container span{
         display: none;
-    }
-
-    .contact span.mobile {
-        display: block;
     }
 
     .content {

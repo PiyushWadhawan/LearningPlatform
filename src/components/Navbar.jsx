@@ -5,6 +5,7 @@ import { TfiMenu } from "react-icons/tfi"
 import { BsFillPersonFill } from 'react-icons/bs'
 import { FaEdit } from 'react-icons/fa'
 import "./Navbar.css"
+
 function Navbar() {
   return (
     <div className="nav">

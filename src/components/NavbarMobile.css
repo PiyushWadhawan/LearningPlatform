@@ -1,0 +1,20 @@
+
+.navbar-mobile {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: white;
+}
+
+.nav-items-mobile {
+    width: 25%;
+    font-size: 1rem;
+}
+

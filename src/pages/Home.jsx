@@ -6,6 +6,7 @@ import { BsFillTelephoneFill } from "react-icons/bs"
 import Navbar from '../components/Navbar'
 import SidenavAdvance from '../components/SidenavAdvance'
 import Sidenav from '../components/Sidenav'
+import NavbarMobile from '../components/NavbarMobile'
 
 function Home() {
   return (
@@ -13,7 +14,6 @@ function Home() {
       <div className='container'>
         
         <span><Navbar/></span>
-        {/* <span className='mobile'><NavbarMobile/></span> */}
 
         <div className="content">
 
