@@ -4,17 +4,28 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    
     position: fixed;
     bottom: 0%;
-    left: 0;
-    right: 0;
     padding: 1rem;
-    background-color: white;
+    margin-bottom: 0;
 }
 
 .nav-items-mobile {
     width: 25%;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
+@media screen and (min-width: 590px) {
+
+    .nav-items-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    .navbar-mobile{
+        display: fixed;
+        background-color: white;
+    }
+}
