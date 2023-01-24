@@ -18,7 +18,7 @@ function Home() {
 
             <div className='intro'>
                 <div className="intro-content">
-                    <h1>Dorabhai</h1>
+                    <h1>E-Learn</h1>
                     <h2>CONTENT CREATOR</h2>
                     <hr />
                     <ul className='contact'>
