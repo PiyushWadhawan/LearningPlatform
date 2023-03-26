@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className="nav">
             <div className='greeting'>
-                <h4>Good Morning Mithilesh</h4>
+                <h4>Good Morning Piyush</h4>
                 <img src="https://img.freepik.com/premium-vector/coffee-hand-drawn-vector-illustration_2699-760.jpg?size=338&ext=jpg&ga=GA1.1.220890391.1672941341&semt=sph" alt="" />
             </div>
             <ul className='navbar'>
