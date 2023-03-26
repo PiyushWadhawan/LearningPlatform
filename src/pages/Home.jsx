@@ -28,7 +28,7 @@ function Home() {
                         </li>
                         <li>
                             <AiFillMail/>
-                            <h3>hello@dorabhai.com</h3>
+                            <h3>elearn@gmail.com</h3>
                         </li>
                         <li className='phone-no'>
                             <BsFillTelephoneFill/>
